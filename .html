@@ -10,80 +10,91 @@
             <h1>Il mio Viaggio a Londra</h1>
         </header>
         <main>
-            <nav>
+            <nav> <!-- display flex o inline? capire c'e lo spazio tra le immagini motivo perche e display inline -->
                 <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="1">
                 <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="2">
                 <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="3">
+                <!--essendo in display inline dafault mettendoli nella stessa riga li rende attaccati-->
+                <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="1"><img src="./img/pexels-bill-emrich-230794-1.jpg" alt="2"><img src="./img/pexels-bill-emrich-230794-2.jpg" alt="3">
+
             </nav>
             <hr>
-            <h2>Le mie spese</h2>
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>Numero</th>
-                            <th>Descrizione</th>
-                            <th>Costo</th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Biglietti Areo</td>
-                            <td>120$</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Biglietti Areo</td>
-                            <td>120$</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Biglietti Areo</td>
-                            <td>120$</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Totale</td>
-                            <td>360$</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <section>
+                <h2>Le mie spese</h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Numero</th>
+                                <th>Descrizione</th>
+                                <th>Costo</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Biglietti Areo</td>
+                                <td>120$</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Biglietti Areo</td>
+                                <td>120$</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Biglietti Areo</td>
+                                <td>120$</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Totale</td>
+                                <td>360$</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
             <hr>
-            <h3>Cose da fare</h3>
-
-            <ul>
-                <li>Visitare le Tower of London &#10006</li>
-                <li>Visitare greenwich &#10004</li>
-                <li>Ascoltare un artista di strada a Covent Garden &#10006</li>
-                <li>Mangiare il tipico Fish and Chips inglese &#10004</li>
-            </ul>
+            <section>
+                <h3>Cose da fare</h3>
+                <ul>
+                    <li>Visitare le Tower of London &#10006</li>
+                    <li>Visitare greenwich &#10004</li>
+                    <li>Ascoltare un artista di strada a Covent Garden &#10006</li>
+                    <li>Mangiare il tipico Fish and Chips inglese &#10004</li>
+                </ul>
+            </section>
             <hr>
+            <section>
                 <h3>Info utili:</h3>
                 <ol>
-                    <li>Numeri utili di emergenza</li>
+                    <li>Numeri utili di emergenza <!--li li teniamo cosi perche e la giusta formattazione-->
                         <ul>
                             <li><strong>999</strong> - Emergenza</li>
                             <li><strong>101</strong> - Numero polizia</li>
                             <li><strong>111</strong> - Numero assistenza medica</li>
                         </ul>
+                    </li>
                 </ol>
                 <ol>
-                    <li>Hotel</li>
+                    <li>Hotel
                         <ul>
                             <li><strong>Nome hotel</strong>: Emergenza</li>
                             <li><strong>1Indirizzo hotel</strong>: Numero polizia</li>
                         </ul>
+                    </li>
                 </ol>
                 <ol>
-                    <li>Numeri utili di emergenza</li>
+                    <li>Numeri utili di emergenza
                         <ul>
                             <li><strong>Volo di Andata</strong>: Y1234X, ore 9:30 da Milano Malpensa</li>
                             <li><strong>Volo di Ritorno</strong>: Y1236X, ore 18:30 da London Heathrow</li>
                         </ul>
+                    </li>
                 </ol>
-                <hr>
+            </section>
+            <hr>
+            <section>
                 <h3>Le foto</h3>
                 <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="Foto1">
                 <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n" alt="Foto2">        
-
-
+            </section>
         </main>
     </body>
 </html>
